@@ -1,0 +1,4 @@
+## IDF Component Manager manifest
+## ESP-IDF v6.0 移除了内置的 json 组件，改为从这里引入 espressif/cjson
+dependencies:
+  espressif/cjson: "^1.7.19"
