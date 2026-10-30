@@ -1,0 +1,51 @@
+# ===== 通用 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# ===== 敏感信息：真实密钥只保留在本地，不要提交 =====
+.env
+*.env
+secrets.h
+secrets.py
+
+# ===== 日志 / 编辑器缓存 =====
+*.log
+**/.vscode/
+**/__pycache__/
+*.pyc
+**/.clangd
+
+# ===== 源码压缩包（工程已按目录单独存放，避免重复） =====
+*.zip
+
+# ===== ESP-IDF 构建产物 =====
+**/build/
+**/managed_components/
+**/sdkconfig.old
+
+# ===== Keil MDK-ARM 中间文件 =====
+**/MDK-ARM/project/
+**/DebugConfig/
+**/RTE/
+**/Listings/
+**/Objects/
+*.uvguix.*
+*.uvoptx
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.lst
+*.lnp
+*.dep
+*.htm
+*.sct
+*.Bak
+*.bak
+*.iex
+*.scvd
+*.map
