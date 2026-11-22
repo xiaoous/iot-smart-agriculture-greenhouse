@@ -5,7 +5,6 @@
 STM32F103 负责采集与执行，ESP32-S3 负责联网，Python（Flask）负责数据转发与 AI 分析，华为云 IoTDA 负责与 App 双向通信。
 
 > 演示视频：[演示视频/e0493022c455172564cf9071cb0edfcd.mp4](<演示视频/e0493022c455172564cf9071cb0edfcd.mp4>)
-> 图文教程：[项目制作全过程（CSDN 博客）](https://blog.csdn.net/2401_89363844/article/details/155163708)
 
 ---
 
